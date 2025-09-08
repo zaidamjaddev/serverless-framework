@@ -20,8 +20,8 @@ app.use((req, res, next) => {
   });
 });
 
-// app.listen(4000, () =>{
-//   console.log('server is running')
-// })
+app.listen(4000, () =>{
+  console.log('server is running')
+})
 
 exports.handler = serverless(app);
